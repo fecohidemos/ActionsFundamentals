@@ -75,7 +75,7 @@ Add a input of the type environment to the `workflow_dispatch` trigger.
     needs: [Test, Load-Test]
     environment:
       name: Production
-      url: https://writeabout.net
+      url: https://fecohidemos.github.io/github-games-prosegur/
     if: github.event.inputs.environment == 'Production'
     steps:
       - run: |
