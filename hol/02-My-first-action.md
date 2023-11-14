@@ -105,7 +105,7 @@ jobs:
         id: hello-action
         uses: ./hello-world-docker-action
         with:
-          who-to-greet: '@wulfland'
+          who-to-greet: '@prosegur'
 
       - name: Output time set in the container
         run: echo "The time was ${{ steps.hello-action.outputs.time }} when the action said hello"
@@ -147,7 +147,7 @@ jobs:
       - name: Say hello
         uses: <your-github-username>/hello-world-docker-action@v1
         with:
-          who-to-greet: '@octocat'
+          who-to-greet: '@prosegur'
 ```
 
 </details>
